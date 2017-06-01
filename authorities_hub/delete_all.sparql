@@ -1,0 +1,1 @@
+update=delete+WHERE+{+?s+?predicate+?object}
