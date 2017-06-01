@@ -1,0 +1,357 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <madsrdf:PersonalName rdf:about="http://id.loc.gov/authorities/names/n80032761" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">
+    <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+    <madsrdf:authoritativeLabel xml:lang="en">Smith, Adam, 1723-1790</madsrdf:authoritativeLabel>
+    <madsrdf:elementList rdf:parseType="Collection">
+      <madsrdf:FullNameElement>
+	<madsrdf:elementValue xml:lang="en">Smith, Adam,</madsrdf:elementValue>
+      </madsrdf:FullNameElement>
+      <madsrdf:DateNameElement>
+	<madsrdf:elementValue xml:lang="en">1723-1790</madsrdf:elementValue>
+      </madsrdf:DateNameElement>
+    </madsrdf:elementList>
+    <madsrdf:isMemberOfMADSCollection rdf:resource="http://id.loc.gov/authorities/names/collection_NamesAuthorizedHeadings"/>
+    <madsrdf:isMemberOfMADSCollection rdf:resource="http://id.loc.gov/authorities/names/collection_LCNAF"/>
+    <madsrdf:hasExactExternalAuthority rdf:resource="http://viaf.org/viaf/sourceID/LC%7Cn+80032761#skos:Concept"/>
+    <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/names"/>
+    <madsrdf:identifiesRWO>
+      <madsrdf:RWO rdf:about="http://id.loc.gov/rwo/agents/n80032761">
+	<rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Smith, Adam, 1723-1790</rdfs:label>
+	<rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    Smith, Adam,
+    1723-1790
+  </rdfs:label>
+	<madsrdf:birthDate>
+	  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+	    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">17230616</rdfs:label>
+	  </skos:Concept>
+	</madsrdf:birthDate>
+	<madsrdf:deathDate>
+	  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+	    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">17900717</rdfs:label>
+	  </skos:Concept>
+	</madsrdf:deathDate>
+	<madsrdf:gender>
+	  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+	    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">male</rdfs:label>
+	  </skos:Concept>
+	</madsrdf:gender>
+	<madsrdf:fieldOfActivity>
+	  <skos:Concept rdf:about="http://id.loc.gov/authorities/subjects/sh85040850" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+	    <madsrdf:authoritativeLabel xml:lang="en">Economics</madsrdf:authoritativeLabel>
+	  </skos:Concept>
+	</madsrdf:fieldOfActivity>
+	<madsrdf:fieldOfActivity>
+	  <skos:Concept rdf:about="http://id.loc.gov/authorities/subjects/sh85045096" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+	    <madsrdf:authoritativeLabel xml:lang="en">Ethics</madsrdf:authoritativeLabel>
+	  </skos:Concept>
+	</madsrdf:fieldOfActivity>
+	<madsrdf:fieldOfActivity>
+	  <skos:Concept rdf:about="http://id.loc.gov/authorities/subjects/sh85100849" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+	    <madsrdf:authoritativeLabel xml:lang="en">Philosophy</madsrdf:authoritativeLabel>
+	  </skos:Concept>
+	</madsrdf:fieldOfActivity>
+	<madsrdf:occupation>
+	  <madsrdf:Occupation rdf:about="http://id.loc.gov/authorities/subjects/sh85040878">
+	    <madsrdf:authoritativeLabel xml:lang="en">Economists</madsrdf:authoritativeLabel>
+	  </madsrdf:Occupation>
+	</madsrdf:occupation>
+	<madsrdf:occupation>
+	  <madsrdf:Occupation rdf:about="http://id.loc.gov/authorities/subjects/sh85045095">
+	    <madsrdf:authoritativeLabel xml:lang="en">Ethicists</madsrdf:authoritativeLabel>
+	  </madsrdf:Occupation>
+	</madsrdf:occupation>
+	<madsrdf:occupation>
+	  <madsrdf:Occupation rdf:about="http://id.loc.gov/authorities/subjects/sh85100836">
+	    <madsrdf:authoritativeLabel xml:lang="en">Philosophers</madsrdf:authoritativeLabel>
+	  </madsrdf:Occupation>
+	</madsrdf:occupation>
+	<madsrdf:associatedLanguage>
+	  <madsrdf:Language rdf:about="http://id.loc.gov/vocabulary/languages/eng.rdf">
+	    <madsrdf:authoritativeLabel xml:lang="en">English</madsrdf:authoritativeLabel>
+	  </madsrdf:Language>
+	</madsrdf:associatedLanguage>
+	<madsrdf:birthPlace>
+	  <madsrdf:Geographic rdf:about="http://id.loc.gov/authorities/names/n84183877">
+	    <madsrdf:authoritativeLabel xml:lang="en">Kirkcaldy (Scotland)</madsrdf:authoritativeLabel>
+	  </madsrdf:Geographic>
+	</madsrdf:birthPlace>
+	<madsrdf:deathPlace>
+	  <madsrdf:Geographic rdf:about="http://id.loc.gov/authorities/names/n79053770">
+	    <madsrdf:authoritativeLabel xml:lang="en">Edinburgh (Scotland)</madsrdf:authoritativeLabel>
+	  </madsrdf:Geographic>
+	</madsrdf:deathPlace>
+	<madsrdf:associatedLocale>
+	  <madsrdf:Geographic rdf:about="http://id.loc.gov/authorities/names/n79123936">
+	    <madsrdf:authoritativeLabel xml:lang="en">Scotland</madsrdf:authoritativeLabel>
+	  </madsrdf:Geographic>
+	</madsrdf:associatedLocale>
+	<madsrdf:associatedLocale>
+	  <madsrdf:Geographic rdf:about="http://id.loc.gov/authorities/names/n79023147">
+	    <madsrdf:authoritativeLabel xml:lang="en">Great Britain</madsrdf:authoritativeLabel>
+	  </madsrdf:Geographic>
+	</madsrdf:associatedLocale>
+      </madsrdf:RWO>
+    </madsrdf:identifiesRWO>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Smit, Adam, 1723-1790</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Smit, Adam,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1723-1790</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Yadang Simi, 1723-1790</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Yadang Simi,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1723-1790</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Ya-tang Ssu-mi, 1723-1790</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Ya-tang Ssu-mi,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1723-1790</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">亚当・斯密, 1723-1790</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">亚当・斯密,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1723-1790</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Simi, Yadang, 1723-1790</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Simi, Yadang,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1723-1790</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Ssu-mi, Ya-tang, 1723-1790</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Ssu-mi, Ya-tang,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1723-1790</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">斯密亚当, 1723-1790</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">斯密亚当,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1723-1790</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">סמית, אדם, 1723-1790</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">סמית, אדם,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1723-1790</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">スミスアダムス, 1723-1790</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">スミスアダムス,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1723-1790</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:editorialNote>[Machine-derived non-Latin script reference project.]</madsrdf:editorialNote>
+    <madsrdf:editorialNote>[Non-Latin script references not evaluated.]</madsrdf:editorialNote>
+    <identifiers:lccn xmlns:identifiers="http://id.loc.gov/vocabulary/identifiers/">n 80032761</identifiers:lccn>
+    <identifiers:local xmlns:identifiers="http://id.loc.gov/vocabulary/identifiers/">(OCoLC)oca00414950</identifiers:local>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>His Adam Smith's moral and political philosophy, 1948.</madsrdf:citation-source>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>Chʻen, T.Y. Ya-tang Ssu-mi ti ching chi li lun tʻi hsi, 1982:</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">t.p. (亚当・斯密 = Ya-tang Ssu-mi)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>Issledovanie o prirode i prichinakh bogatstva narodov, 1993- :</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">v. 1, t.p. (Adam Smit)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>Wikipedia, April 9, 2014</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">(Adam Smith (5 June 1723 OS (16 June 1723 NS)-17 July 1790) was a Scottish moral philosopher and a pioneer of political economy. One of the key figures of the Scottish Enlightenment, Smith is best known for two classic works: The Theory of Moral Sentiments (1759), and An Inquiry into the Nature and Causes of the Wealth of Nations (1776); born Kirkcaldy, Fife, Scotland; died Edinburgh, Scotland; nationality: British (Scottish); region: Western philosophy; school: Classical economics; main interests: Political philosophy, ethics, economics)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:adminMetadata>
+      <ri:RecordInfo xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#">
+	<ri:recordChangeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1980-03-21T00:00:00</ri:recordChangeDate>
+	<ri:recordStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</ri:recordStatus>
+	<ri:recordContentSource rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<ri:languageOfCataloging rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      </ri:RecordInfo>
+    </madsrdf:adminMetadata>
+    <madsrdf:adminMetadata>
+      <ri:RecordInfo xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#">
+	<ri:recordChangeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-10T07:38:38</ri:recordChangeDate>
+	<ri:recordStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</ri:recordStatus>
+	<ri:recordContentSource rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<ri:languageOfCataloging rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      </ri:RecordInfo>
+    </madsrdf:adminMetadata>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Smith, Adam, 1723-1790</skos:prefLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Smit, Adam, 1723-1790</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Yadang Simi, 1723-1790</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Ya-tang Ssu-mi, 1723-1790</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">亚当・斯密, 1723-1790</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Simi, Yadang, 1723-1790</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Ssu-mi, Ya-tang, 1723-1790</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">斯密亚当, 1723-1790</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">סמית, אדם, 1723-1790</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">スミスアダムス, 1723-1790</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:exactMatch rdf:resource="http://viaf.org/viaf/sourceID/LC%7Cn+80032761#skos:Concept" xmlns:skos="http://www.w3.org/2004/02/skos/core#"/>
+    <skos:editorial xmlns:skos="http://www.w3.org/2004/02/skos/core#">[Machine-derived non-Latin script reference project.]</skos:editorial>
+    <skos:editorial xmlns:skos="http://www.w3.org/2004/02/skos/core#">[Non-Latin script references not evaluated.]</skos:editorial>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/names" xmlns:skos="http://www.w3.org/2004/02/skos/core#"/>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Smit, Adam, 1723-1790</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Yadang Simi, 1723-1790</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ya-tang Ssu-mi, 1723-1790</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">亚当・斯密, 1723-1790</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Simi, Yadang, 1723-1790</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ssu-mi, Ya-tang, 1723-1790</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">斯密亚当, 1723-1790</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">סמית, אדם, 1723-1790</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">スミスアダムス, 1723-1790</skos:altLabel>
+    <skos:changeNote xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+      <cs:ChangeSet xmlns:cs="http://purl.org/vocab/changeset/schema#">
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/names/n80032761"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1980-03-21T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+      <cs:ChangeSet xmlns:cs="http://purl.org/vocab/changeset/schema#">
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/names/n80032761"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-10T07:38:38</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </madsrdf:PersonalName>
+</rdf:RDF>

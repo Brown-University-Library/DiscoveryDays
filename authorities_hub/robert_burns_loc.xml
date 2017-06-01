@@ -1,0 +1,173 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <madsrdf:PersonalName rdf:about="http://id.loc.gov/authorities/names/n78088009" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">
+    <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+    <madsrdf:authoritativeLabel xml:lang="en">Burns, Robert, 1759-1796</madsrdf:authoritativeLabel>
+    <madsrdf:elementList rdf:parseType="Collection">
+      <madsrdf:FullNameElement>
+	<madsrdf:elementValue xml:lang="en">Burns, Robert,</madsrdf:elementValue>
+      </madsrdf:FullNameElement>
+      <madsrdf:DateNameElement>
+	<madsrdf:elementValue xml:lang="en">1759-1796</madsrdf:elementValue>
+      </madsrdf:DateNameElement>
+    </madsrdf:elementList>
+    <madsrdf:isMemberOfMADSCollection rdf:resource="http://id.loc.gov/authorities/names/collection_NamesAuthorizedHeadings"/>
+    <madsrdf:isMemberOfMADSCollection rdf:resource="http://id.loc.gov/authorities/names/collection_LCNAF"/>
+    <madsrdf:hasExactExternalAuthority rdf:resource="http://viaf.org/viaf/sourceID/LC%7Cn+78088009#skos:Concept"/>
+    <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/names"/>
+    <madsrdf:identifiesRWO>
+      <madsrdf:RWO rdf:about="http://id.loc.gov/rwo/agents/n78088009">
+	<rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Burns, Robert, 1759-1796</rdfs:label>
+	<rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    Burns, Robert,
+    1759-1796
+  </rdfs:label>
+	<madsrdf:birthDate>
+	  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+	    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">1759-01-25</rdfs:label>
+	  </skos:Concept>
+	</madsrdf:birthDate>
+	<madsrdf:deathDate>
+	  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+	    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">1796-07-21</rdfs:label>
+	  </skos:Concept>
+	</madsrdf:deathDate>
+	<madsrdf:birthPlace>
+	  <madsrdf:Geographic>
+	    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Ayrshire (Scotland)</rdfs:label>
+	  </madsrdf:Geographic>
+	</madsrdf:birthPlace>
+	<madsrdf:deathPlace>
+	  <madsrdf:Geographic>
+	    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Dumfries (Scotland)</rdfs:label>
+	  </madsrdf:Geographic>
+	</madsrdf:deathPlace>
+	<madsrdf:occupation>
+	  <madsrdf:Occupation>
+	    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Poet</rdfs:label>
+	  </madsrdf:Occupation>
+	</madsrdf:occupation>
+	<madsrdf:gender>
+	  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+	    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">male</rdfs:label>
+	  </skos:Concept>
+	</madsrdf:gender>
+	<madsrdf:associatedLanguage>
+	  <madsrdf:Language rdf:about="http://id.loc.gov/vocabulary/languages/sco.rdf">
+	    <madsrdf:authoritativeLabel xml:lang="en">Scots</madsrdf:authoritativeLabel>
+	  </madsrdf:Language>
+	</madsrdf:associatedLanguage>
+	<madsrdf:associatedLanguage>
+	  <madsrdf:Language rdf:about="http://id.loc.gov/vocabulary/languages/eng.rdf">
+	    <madsrdf:authoritativeLabel xml:lang="en">English</madsrdf:authoritativeLabel>
+	  </madsrdf:Language>
+	</madsrdf:associatedLanguage>
+      </madsrdf:RWO>
+    </madsrdf:identifiesRWO>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Berns, Robert, 1759-1796</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Berns, Robert,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1759-1796</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Бернс, Роберт, 1759-1796</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Бернс, Роберт,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1759-1796</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:editorialNote>[Machine-derived non-Latin script reference project.]</madsrdf:editorialNote>
+    <madsrdf:editorialNote>[Non-Latin script reference not evaluated.]</madsrdf:editorialNote>
+    <identifiers:lccn xmlns:identifiers="http://id.loc.gov/vocabulary/identifiers/">n 78088009</identifiers:lccn>
+    <identifiers:local xmlns:identifiers="http://id.loc.gov/vocabulary/identifiers/">(OCoLC)oca00223189</identifiers:local>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>Barke, J. The wind that shakes the barley, 1946.</madsrdf:citation-source>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>Shostakovich, D.D. Shestʹ romansov na slova angliĭskikh poėtov, c1972:</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">p. 11 (Robert Berns)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>New enc. Britannica, 15th ed., c1998:</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">micropaedia, v. 2 (Burns, Robert; b. Jan. 25, 1759, Alloway, Ayshire, Scot., d. July 21, 1796, Dumfries, Dumfriesshire; national poet of Scotland)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:adminMetadata>
+      <ri:RecordInfo xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#">
+	<ri:recordChangeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1978-11-27T00:00:00</ri:recordChangeDate>
+	<ri:recordStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</ri:recordStatus>
+	<ri:recordContentSource rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<ri:languageOfCataloging rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      </ri:RecordInfo>
+    </madsrdf:adminMetadata>
+    <madsrdf:adminMetadata>
+      <ri:RecordInfo xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#">
+	<ri:recordChangeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-26T11:48:20</ri:recordChangeDate>
+	<ri:recordStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</ri:recordStatus>
+	<ri:recordContentSource rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<ri:languageOfCataloging rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      </ri:RecordInfo>
+    </madsrdf:adminMetadata>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Burns, Robert, 1759-1796</skos:prefLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Berns, Robert, 1759-1796</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Бернс, Роберт, 1759-1796</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:exactMatch rdf:resource="http://viaf.org/viaf/sourceID/LC%7Cn+78088009#skos:Concept" xmlns:skos="http://www.w3.org/2004/02/skos/core#"/>
+    <skos:editorial xmlns:skos="http://www.w3.org/2004/02/skos/core#">[Machine-derived non-Latin script reference project.]</skos:editorial>
+    <skos:editorial xmlns:skos="http://www.w3.org/2004/02/skos/core#">[Non-Latin script reference not evaluated.]</skos:editorial>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/names" xmlns:skos="http://www.w3.org/2004/02/skos/core#"/>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Berns, Robert, 1759-1796</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Бернс, Роберт, 1759-1796</skos:altLabel>
+    <skos:changeNote xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+      <cs:ChangeSet xmlns:cs="http://purl.org/vocab/changeset/schema#">
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/names/n78088009"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1978-11-27T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+      <cs:ChangeSet xmlns:cs="http://purl.org/vocab/changeset/schema#">
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/names/n78088009"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-26T11:48:20</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </madsrdf:PersonalName>
+</rdf:RDF>
