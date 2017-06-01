@@ -6,6 +6,12 @@ Instructions on how to get started for the *Linked Data Authorities* hackathon a
     to provide users with another robust method for exploring our data and
     finding materials of interest - https://library.brown.edu/create/discoveryday/agenda/
 
+We'll have a public Fuseki endpoint available during the hackathon so you don't have to download or install Fuseki.
+
+The URL for the public endpoint is http://to-be-determined:3030/dataset.html?tab=query&ds=/testdb
+
+If you have access to this endpoint you can skip directly to the "Queries" section. Otherwise follow these steps to install Fuseki on your computer.
+
 
 ## Clone this repository
 To clone this repo from the Terminal
