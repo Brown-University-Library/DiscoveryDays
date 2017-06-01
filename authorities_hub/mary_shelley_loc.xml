@@ -1,0 +1,285 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <madsrdf:PersonalName rdf:about="http://id.loc.gov/authorities/names/n79061063" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">
+    <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+    <madsrdf:authoritativeLabel xml:lang="en">Shelley, Mary Wollstonecraft, 1797-1851</madsrdf:authoritativeLabel>
+    <madsrdf:elementList rdf:parseType="Collection">
+      <madsrdf:FullNameElement>
+	<madsrdf:elementValue xml:lang="en">Shelley, Mary Wollstonecraft,</madsrdf:elementValue>
+      </madsrdf:FullNameElement>
+      <madsrdf:DateNameElement>
+	<madsrdf:elementValue xml:lang="en">1797-1851</madsrdf:elementValue>
+      </madsrdf:DateNameElement>
+    </madsrdf:elementList>
+    <madsrdf:classification>PR5397-PR5398</madsrdf:classification>
+    <madsrdf:hasEarlierEstablishedForm>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Shelley, Mary Wollstonecraft Godwin, 1797-1851</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Shelley, Mary Wollstonecraft Godwin,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1797-1851</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasEarlierEstablishedForm>
+    <madsrdf:useFor>
+      <madsrdf:DeprecatedAuthority rdf:about="http://id.loc.gov/authorities/subjects/sh85121287">
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+	<rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">sh85121287</rdfs:label>
+      </madsrdf:DeprecatedAuthority>
+    </madsrdf:useFor>
+    <madsrdf:isMemberOfMADSCollection rdf:resource="http://id.loc.gov/authorities/names/collection_NamesAuthorizedHeadings"/>
+    <madsrdf:isMemberOfMADSCollection rdf:resource="http://id.loc.gov/authorities/names/collection_LCNAF"/>
+    <madsrdf:hasExactExternalAuthority rdf:resource="http://viaf.org/viaf/sourceID/LC%7Cn+79061063#skos:Concept"/>
+    <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/names"/>
+    <madsrdf:identifiesRWO>
+      <madsrdf:RWO rdf:about="http://id.loc.gov/rwo/agents/n79061063">
+	<rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Shelley, Mary Wollstonecraft, 1797-1851</rdfs:label>
+	<rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    Shelley, Mary Wollstonecraft,
+    1797-1851
+  </rdfs:label>
+	<madsrdf:birthDate>
+	  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+	    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">(edtf) 1797-08-30</rdfs:label>
+	  </skos:Concept>
+	</madsrdf:birthDate>
+	<madsrdf:deathDate>
+	  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+	    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">(edtf) 1851-02-01</rdfs:label>
+	  </skos:Concept>
+	</madsrdf:deathDate>
+	<madsrdf:gender>
+	  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+	    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">female</rdfs:label>
+	  </skos:Concept>
+	</madsrdf:gender>
+	<madsrdf:occupation>
+	  <madsrdf:Occupation rdf:about="http://id.loc.gov/authorities/subjects/sh85009793">
+	    <madsrdf:authoritativeLabel xml:lang="en">Authors</madsrdf:authoritativeLabel>
+	  </madsrdf:Occupation>
+	</madsrdf:occupation>
+	<madsrdf:associatedLanguage>
+	  <madsrdf:Language rdf:about="http://id.loc.gov/vocabulary/languages/eng.rdf">
+	    <madsrdf:authoritativeLabel xml:lang="en">English</madsrdf:authoritativeLabel>
+	  </madsrdf:Language>
+	</madsrdf:associatedLanguage>
+	<madsrdf:birthPlace>
+	  <madsrdf:Geographic rdf:about="http://id.loc.gov/authorities/names/n79005665">
+	    <madsrdf:authoritativeLabel xml:lang="en">London (England)</madsrdf:authoritativeLabel>
+	  </madsrdf:Geographic>
+	</madsrdf:birthPlace>
+	<madsrdf:deathPlace>
+	  <madsrdf:Geographic rdf:about="http://id.loc.gov/authorities/names/n79005665">
+	    <madsrdf:authoritativeLabel xml:lang="en">London (England)</madsrdf:authoritativeLabel>
+	  </madsrdf:Geographic>
+	</madsrdf:deathPlace>
+      </madsrdf:RWO>
+    </madsrdf:identifiesRWO>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Shelli, Mėri, 1797-1851</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Shelli, Mėri,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1797-1851</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Shelley, Mrs., 1797-1851</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Shelley,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:TermsOfAddressNameElement>
+	    <madsrdf:elementValue xml:lang="en">Mrs.,</madsrdf:elementValue>
+	  </madsrdf:TermsOfAddressNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1797-1851</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Shelley, Percy Bysshe, Mrs., 1797-1851</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Shelley, Percy Bysshe,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:TermsOfAddressNameElement>
+	    <madsrdf:elementValue xml:lang="en">Mrs.,</madsrdf:elementValue>
+	  </madsrdf:TermsOfAddressNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1797-1851</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Shelley, Mary, 1797-1851</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Shelley, Mary,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1797-1851</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Shelley, Maria, 1797-1851</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Shelley, Maria,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1797-1851</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">שלי, מרי, 1797-1851</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">שלי, מרי,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1797-1851</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:editorialNote>[Machine-derived non-Latin script reference project.]</madsrdf:editorialNote>
+    <madsrdf:editorialNote>[Non-Latin script reference not evaluated.]</madsrdf:editorialNote>
+    <identifiers:lccn xmlns:identifiers="http://id.loc.gov/vocabulary/identifiers/">n 79061063</identifiers:lccn>
+    <identifiers:local xmlns:identifiers="http://id.loc.gov/vocabulary/identifiers/">(OCoLC)oca00294084</identifiers:local>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>Her Rambles in Germany ... 1844.</madsrdf:citation-source>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>Her Frankenstein, or, The modern Prometheus, c1982:</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">t.p. (Mary Shelley)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>The question of madness in E.T.A. Hoffmann and Maria Shelley, c2003.</madsrdf:citation-source>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>Oxford dictionary of national biography online, 24 October 2013</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">(Mary Wollstonecraft Godwin Shelley, writer; born in London 30 August 1797; died 1 February 1851 in London; wife of Percy Bysshe Shelley)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:adminMetadata>
+      <ri:RecordInfo xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#">
+	<ri:recordChangeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1979-07-31T00:00:00</ri:recordChangeDate>
+	<ri:recordStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</ri:recordStatus>
+	<ri:recordContentSource rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<ri:languageOfCataloging rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      </ri:RecordInfo>
+    </madsrdf:adminMetadata>
+    <madsrdf:adminMetadata>
+      <ri:RecordInfo xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#">
+	<ri:recordChangeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-27T17:20:52</ri:recordChangeDate>
+	<ri:recordStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</ri:recordStatus>
+	<ri:recordContentSource rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<ri:languageOfCataloging rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      </ri:RecordInfo>
+    </madsrdf:adminMetadata>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Shelley, Mary Wollstonecraft, 1797-1851</skos:prefLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Shelli, Mėri, 1797-1851</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Shelley, Mrs., 1797-1851</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Shelley, Percy Bysshe, Mrs., 1797-1851</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Shelley, Mary, 1797-1851</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Shelley, Maria, 1797-1851</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">שלי, מרי, 1797-1851</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:exactMatch rdf:resource="http://viaf.org/viaf/sourceID/LC%7Cn+79061063#skos:Concept" xmlns:skos="http://www.w3.org/2004/02/skos/core#"/>
+    <skos:editorial xmlns:skos="http://www.w3.org/2004/02/skos/core#">[Machine-derived non-Latin script reference project.]</skos:editorial>
+    <skos:editorial xmlns:skos="http://www.w3.org/2004/02/skos/core#">[Non-Latin script reference not evaluated.]</skos:editorial>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/names" xmlns:skos="http://www.w3.org/2004/02/skos/core#"/>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Shelli, Mėri, 1797-1851</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Shelley, Mrs., 1797-1851</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Shelley, Percy Bysshe, Mrs., 1797-1851</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Shelley, Mary, 1797-1851</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Shelley, Maria, 1797-1851</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">שלי, מרי, 1797-1851</skos:altLabel>
+    <skos:changeNote xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+      <cs:ChangeSet xmlns:cs="http://purl.org/vocab/changeset/schema#">
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/names/n79061063"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1979-07-31T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+      <cs:ChangeSet xmlns:cs="http://purl.org/vocab/changeset/schema#">
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/names/n79061063"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-04-27T17:20:52</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </madsrdf:PersonalName>
+</rdf:RDF>

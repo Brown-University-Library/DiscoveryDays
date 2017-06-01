@@ -1,0 +1,402 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <madsrdf:PersonalName rdf:about="http://id.loc.gov/authorities/names/n79056824" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">
+    <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+    <madsrdf:authoritativeLabel xml:lang="en">Joyce, James, 1882-1941</madsrdf:authoritativeLabel>
+    <madsrdf:elementList rdf:parseType="Collection">
+      <madsrdf:FullNameElement>
+	<madsrdf:elementValue xml:lang="en">Joyce, James,</madsrdf:elementValue>
+      </madsrdf:FullNameElement>
+      <madsrdf:DateNameElement>
+	<madsrdf:elementValue xml:lang="en">1882-1941</madsrdf:elementValue>
+      </madsrdf:DateNameElement>
+    </madsrdf:elementList>
+    <madsrdf:classification>PR6019.O9</madsrdf:classification>
+    <madsrdf:useFor>
+      <madsrdf:DeprecatedAuthority rdf:about="http://id.loc.gov/authorities/subjects/sh85070807">
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+	<rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">sh85070807</rdfs:label>
+      </madsrdf:DeprecatedAuthority>
+    </madsrdf:useFor>
+    <madsrdf:isMemberOfMADSCollection rdf:resource="http://id.loc.gov/authorities/names/collection_NamesAuthorizedHeadings"/>
+    <madsrdf:isMemberOfMADSCollection rdf:resource="http://id.loc.gov/authorities/names/collection_LCNAF"/>
+    <madsrdf:hasExactExternalAuthority rdf:resource="http://viaf.org/viaf/sourceID/LC%7Cn+79056824#skos:Concept"/>
+    <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/names"/>
+    <madsrdf:identifiesRWO>
+      <madsrdf:RWO rdf:about="http://id.loc.gov/rwo/agents/n79056824">
+	<rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Joyce, James, 1882-1941</rdfs:label>
+	<rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    Joyce, James,
+    1882-1941
+  </rdfs:label>
+	<madsrdf:birthDate>
+	  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+	    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">(edtf) 1882</rdfs:label>
+	  </skos:Concept>
+	</madsrdf:birthDate>
+	<madsrdf:deathDate>
+	  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+	    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">(edtf) 1941</rdfs:label>
+	  </skos:Concept>
+	</madsrdf:deathDate>
+      </madsrdf:RWO>
+    </madsrdf:identifiesRWO>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Dzhoĭs, Dzheĭms Avgustin Aloiziĭ, 1882-1941</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Dzhoĭs, Dzheĭms Avgustin Aloiziĭ,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1882-1941</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Džoiss, Džeimss, 1882-1941</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Džoiss, Džeimss,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1882-1941</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Gʻois, Gʻaims, 1882-1941</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Gʻois, Gʻaims,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1882-1941</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Joyce, Giacomo, 1882-1941</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Joyce, Giacomo,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1882-1941</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Jūyis, Jīms, 1882-1941</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Jūyis, Jīms,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1882-1941</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Tzoys, Tzaiēms, 1882-1941</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Tzoys, Tzaiēms,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1882-1941</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Tzoys, Tzeēms, 1882-1941</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Tzoys, Tzeēms,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1882-1941</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Джойс, Джеймс, 1882-1941</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Джойс, Джеймс,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1882-1941</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Джойс, Джеймс Августин Алоїсуїс, 1882-1941</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Джойс, Джеймс Августин Алоїсуїс,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1882-1941</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Zhoĭs, Zheĭms, 1882-1941</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Zhoĭs, Zheĭms,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1882-1941</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">ג׳ויס, ג׳ײמס, 1941־1882</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">ג׳ויס, ג׳ײמס,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1941־1882</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">ג׳ויס, ג׳יימס, 1882־1941</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">ג׳ויס, ג׳יימס,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1882־1941</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">ジェームスジョイス, 1882-1941</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">ジェームスジョイス,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1882-1941</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:editorialNote>[Machine-derived non-Latin script reference project.]</madsrdf:editorialNote>
+    <madsrdf:editorialNote>[Non-Latin script references not evaluated.]</madsrdf:editorialNote>
+    <identifiers:lccn xmlns:identifiers="http://id.loc.gov/vocabulary/identifiers/">n 79056824</identifiers:lccn>
+    <identifiers:local xmlns:identifiers="http://id.loc.gov/vocabulary/identifiers/">(OCoLC)oca00289915</identifiers:local>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>His Uliss, 1993:</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">t.p. (Džeimss Džoiss)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>His Portrait of the artist as a young man ... 1916.</madsrdf:citation-source>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>Odysseas, 1969?</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">t. 1, t.p. (Tzeēms Tzoys)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>"Uliss" v russkom zerkale, 1994:</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">p. 5 (Dzheĭms Avgustin Aloiziĭ Dzhoĭs)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>Z͡Hytti͡eva ta tvorcha "Odissei͡a" Dz͡heĭmsa Dz͡hoĭsa, 2010:</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">p. 3 (Джойс, Джеймс Августин Алоїсуїс, 1882-1941)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>Ong oqimi modern, 2009:</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">page 3 (Zheĭms Zhoĭs)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:adminMetadata>
+      <ri:RecordInfo xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#">
+	<ri:recordChangeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1979-06-04T00:00:00</ri:recordChangeDate>
+	<ri:recordStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</ri:recordStatus>
+	<ri:recordContentSource rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<ri:languageOfCataloging rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      </ri:RecordInfo>
+    </madsrdf:adminMetadata>
+    <madsrdf:adminMetadata>
+      <ri:RecordInfo xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#">
+	<ri:recordChangeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-22T15:48:08</ri:recordChangeDate>
+	<ri:recordStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</ri:recordStatus>
+	<ri:recordContentSource rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<ri:languageOfCataloging rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      </ri:RecordInfo>
+    </madsrdf:adminMetadata>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Joyce, James, 1882-1941</skos:prefLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Dzhoĭs, Dzheĭms Avgustin Aloiziĭ, 1882-1941</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Džoiss, Džeimss, 1882-1941</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Gʻois, Gʻaims, 1882-1941</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Joyce, Giacomo, 1882-1941</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Jūyis, Jīms, 1882-1941</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Tzoys, Tzaiēms, 1882-1941</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Tzoys, Tzeēms, 1882-1941</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Джойс, Джеймс, 1882-1941</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Джойс, Джеймс Августин Алоїсуїс, 1882-1941</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Zhoĭs, Zheĭms, 1882-1941</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">ג׳ויס, ג׳ײמס, 1941־1882</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">ג׳ויס, ג׳יימס, 1882־1941</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">ジェームスジョイス, 1882-1941</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:exactMatch rdf:resource="http://viaf.org/viaf/sourceID/LC%7Cn+79056824#skos:Concept" xmlns:skos="http://www.w3.org/2004/02/skos/core#"/>
+    <skos:editorial xmlns:skos="http://www.w3.org/2004/02/skos/core#">[Machine-derived non-Latin script reference project.]</skos:editorial>
+    <skos:editorial xmlns:skos="http://www.w3.org/2004/02/skos/core#">[Non-Latin script references not evaluated.]</skos:editorial>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/names" xmlns:skos="http://www.w3.org/2004/02/skos/core#"/>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Dzhoĭs, Dzheĭms Avgustin Aloiziĭ, 1882-1941</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Džoiss, Džeimss, 1882-1941</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Gʻois, Gʻaims, 1882-1941</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Joyce, Giacomo, 1882-1941</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Jūyis, Jīms, 1882-1941</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Tzoys, Tzaiēms, 1882-1941</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Tzoys, Tzeēms, 1882-1941</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Джойс, Джеймс, 1882-1941</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Джойс, Джеймс Августин Алоїсуїс, 1882-1941</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Zhoĭs, Zheĭms, 1882-1941</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">ג׳ויס, ג׳ײמס, 1941־1882</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">ג׳ויס, ג׳יימס, 1882־1941</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">ジェームスジョイス, 1882-1941</skos:altLabel>
+    <skos:changeNote xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+      <cs:ChangeSet xmlns:cs="http://purl.org/vocab/changeset/schema#">
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/names/n79056824"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1979-06-04T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+      <cs:ChangeSet xmlns:cs="http://purl.org/vocab/changeset/schema#">
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/names/n79056824"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-22T15:48:08</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </madsrdf:PersonalName>
+</rdf:RDF>

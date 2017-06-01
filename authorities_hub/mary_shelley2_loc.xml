@@ -1,0 +1,77 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <madsrdf:PersonalName rdf:about="http://id.loc.gov/authorities/names/n78059960" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">
+    <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+    <madsrdf:authoritativeLabel xml:lang="en">Shelley, Mary Virginia</madsrdf:authoritativeLabel>
+    <madsrdf:elementList rdf:parseType="Collection">
+      <madsrdf:FullNameElement>
+	<madsrdf:elementValue xml:lang="en">Shelley, Mary Virginia</madsrdf:elementValue>
+      </madsrdf:FullNameElement>
+    </madsrdf:elementList>
+    <madsrdf:isMemberOfMADSCollection rdf:resource="http://id.loc.gov/authorities/names/collection_NamesAuthorizedHeadings"/>
+    <madsrdf:isMemberOfMADSCollection rdf:resource="http://id.loc.gov/authorities/names/collection_LCNAF"/>
+    <madsrdf:hasExactExternalAuthority rdf:resource="http://viaf.org/viaf/sourceID/LC%7Cn+78059960#skos:Concept"/>
+    <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/names"/>
+    <madsrdf:identifiesRWO>
+      <madsrdf:RWO rdf:about="http://id.loc.gov/rwo/agents/n78059960">
+	<rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Shelley, Mary Virginia</rdfs:label>
+	<rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    Shelley, Mary Virginia
+  </rdfs:label>
+      </madsrdf:RWO>
+    </madsrdf:identifiesRWO>
+    <identifiers:lccn xmlns:identifiers="http://id.loc.gov/vocabulary/identifiers/">n 78059960</identifiers:lccn>
+    <identifiers:local xmlns:identifiers="http://id.loc.gov/vocabulary/identifiers/">(OCoLC)oca00195650</identifiers:local>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>Her Dr. Ed, c1978:</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">t.p. (Mary Virginia Shelley)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>Her Harriet Lane, First Lady of the White House, c1980:</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">t.p. (Mary Virginia Shelley) CIP data sheet (b. 12-1-41)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:adminMetadata>
+      <ri:RecordInfo xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#">
+	<ri:recordChangeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1978-08-25T00:00:00</ri:recordChangeDate>
+	<ri:recordStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</ri:recordStatus>
+	<ri:recordContentSource rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<ri:languageOfCataloging rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      </ri:RecordInfo>
+    </madsrdf:adminMetadata>
+    <madsrdf:adminMetadata>
+      <ri:RecordInfo xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#">
+	<ri:recordChangeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-03-04T09:01:00</ri:recordChangeDate>
+	<ri:recordStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</ri:recordStatus>
+	<ri:recordContentSource rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<ri:languageOfCataloging rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      </ri:RecordInfo>
+    </madsrdf:adminMetadata>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Shelley, Mary Virginia</skos:prefLabel>
+    <skos:exactMatch rdf:resource="http://viaf.org/viaf/sourceID/LC%7Cn+78059960#skos:Concept" xmlns:skos="http://www.w3.org/2004/02/skos/core#"/>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/names" xmlns:skos="http://www.w3.org/2004/02/skos/core#"/>
+    <skos:changeNote xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+      <cs:ChangeSet xmlns:cs="http://purl.org/vocab/changeset/schema#">
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/names/n78059960"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1978-08-25T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+      <cs:ChangeSet xmlns:cs="http://purl.org/vocab/changeset/schema#">
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/names/n78059960"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-03-04T09:01:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </madsrdf:PersonalName>
+</rdf:RDF>

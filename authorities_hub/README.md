@@ -76,6 +76,8 @@ bin/s-put http://localhost:3030/testdb default demo_triples.ttl
 
 ## Queries
 
+Go to http://TBD:3030/dataset.html?tab=query&ds=/testdb and use the following SPARQL queries to navigate through the information:
+
 All people in our data set
 ```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -114,12 +116,14 @@ WHERE {
 
 Dealing with strings in multiple languages
 ```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?s ?label
 WHERE {
   ?s rdf:type <http://schema.org/Person> .
   optional {
     ?s <http://www.w3.org/2004/02/skos/core#prefLabel> ?label .
-    FILTER langMatches( lang(?label), "en" )
+    FILTER langMatches( lang(?label), "en-US" )
   }
   optional {
     ?s rdfs:label ?label .
@@ -131,11 +135,13 @@ WHERE {
 
 ## Other scripts
 
-The scripts below are meant to be run from the Terminal.
+The scripts below are meant to be run from the Terminal on your local Fusek instance.
 
 Select all triples:
 ```
 curl -X POST -d @select_all.sparql http://localhost:3030/testdb/sparql
+
+curl "http://localhost:3030/testdb/sparql?query=SELECT+?subject+?predicate+?object+WHERE+\{++?subject+?predicate+?object+\}+LIMIT+25"
 ```
 
 Select all triples as a Graph, this is useful to re-import the data into Fuseki.

@@ -1,0 +1,921 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <madsrdf:PersonalName rdf:about="http://id.loc.gov/authorities/names/n79100233" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">
+    <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+    <madsrdf:authoritativeLabel xml:lang="en">Cervantes Saavedra, Miguel de, 1547-1616</madsrdf:authoritativeLabel>
+    <madsrdf:elementList rdf:parseType="Collection">
+      <madsrdf:FullNameElement>
+	<madsrdf:elementValue xml:lang="en">Cervantes Saavedra, Miguel de,</madsrdf:elementValue>
+      </madsrdf:FullNameElement>
+      <madsrdf:DateNameElement>
+	<madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+      </madsrdf:DateNameElement>
+    </madsrdf:elementList>
+    <madsrdf:classification>PQ6322-PQ6361</madsrdf:classification>
+    <madsrdf:useFor>
+      <madsrdf:DeprecatedAuthority rdf:about="http://id.loc.gov/authorities/subjects/sh85022177">
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Authority"/>
+	<rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">sh85022177</rdfs:label>
+      </madsrdf:DeprecatedAuthority>
+    </madsrdf:useFor>
+    <madsrdf:isMemberOfMADSCollection rdf:resource="http://id.loc.gov/authorities/names/collection_NamesAuthorizedHeadings"/>
+    <madsrdf:isMemberOfMADSCollection rdf:resource="http://id.loc.gov/authorities/names/collection_LCNAF"/>
+    <madsrdf:hasExactExternalAuthority rdf:resource="http://viaf.org/viaf/sourceID/LC%7Cn+79100233#skos:Concept"/>
+    <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/names"/>
+    <madsrdf:identifiesRWO>
+      <madsrdf:RWO rdf:about="http://id.loc.gov/rwo/agents/n79100233">
+	<rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Cervantes Saavedra, Miguel de, 1547-1616</rdfs:label>
+	<rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    Cervantes Saavedra, Miguel de,
+    1547-1616
+  </rdfs:label>
+	<madsrdf:birthDate>
+	  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+	    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">(edtf) 1547</rdfs:label>
+	  </skos:Concept>
+	</madsrdf:birthDate>
+	<madsrdf:deathDate>
+	  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+	    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">(edtf) 1616</rdfs:label>
+	  </skos:Concept>
+	</madsrdf:deathDate>
+	<madsrdf:birthPlace>
+	  <madsrdf:Geographic>
+	    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Alcalá de Henares (Spain)</rdfs:label>
+	  </madsrdf:Geographic>
+	</madsrdf:birthPlace>
+	<madsrdf:deathPlace>
+	  <madsrdf:Geographic>
+	    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Madrid (Spain)</rdfs:label>
+	  </madsrdf:Geographic>
+	</madsrdf:deathPlace>
+	<madsrdf:associatedLocale>
+	  <madsrdf:Geographic>
+	    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Spain</rdfs:label>
+	  </madsrdf:Geographic>
+	</madsrdf:associatedLocale>
+	<madsrdf:occupation>
+	  <madsrdf:Occupation>
+	    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Novelist</rdfs:label>
+	  </madsrdf:Occupation>
+	</madsrdf:occupation>
+	<madsrdf:occupation>
+	  <madsrdf:Occupation>
+	    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Poet</rdfs:label>
+	  </madsrdf:Occupation>
+	</madsrdf:occupation>
+	<madsrdf:occupation>
+	  <madsrdf:Occupation>
+	    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Playwright</rdfs:label>
+	  </madsrdf:Occupation>
+	</madsrdf:occupation>
+	<madsrdf:occupation>
+	  <madsrdf:Occupation>
+	    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Soldier</rdfs:label>
+	  </madsrdf:Occupation>
+	</madsrdf:occupation>
+	<madsrdf:gender>
+	  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+	    <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">male</rdfs:label>
+	  </skos:Concept>
+	</madsrdf:gender>
+	<madsrdf:associatedLanguage>
+	  <madsrdf:Language rdf:about="http://id.loc.gov/vocabulary/languages/spa.rdf">
+	    <madsrdf:authoritativeLabel xml:lang="en">Spanish; Castilian</madsrdf:authoritativeLabel>
+	  </madsrdf:Language>
+	</madsrdf:associatedLanguage>
+      </madsrdf:RWO>
+    </madsrdf:identifiesRWO>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Sai-wan-tʻi-ssŭ, 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Sai-wan-tʻi-ssŭ,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Servantes, M., 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Servantes, M.,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Sirfāntīs, 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Sirfāntīs,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">De Cervantes Saavedra, Miguel, 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">De Cervantes Saavedra, Miguel,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Cervantes, Miguel de, 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Cervantes, Miguel de,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Cervantes de Saavedra, Miguel de, 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Cervantes de Saavedra, Miguel de,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Сервантес Сааведра, Мигель де, 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Сервантес Сааведра, Мигель де,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Servantes Saavedra, Migelʹ de, 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Servantes Saavedra, Migelʹ de,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Saavedra, Miguel de Cervantes, 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Saavedra, Miguel de Cervantes,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Cervantes Savedra, Miguel, 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Cervantes Savedra, Miguel,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Savedra, Miguel Cervantes, 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Savedra, Miguel Cervantes,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Servantesu, M., 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Servantesu, M.,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Cervantes, M., 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Cervantes, M.,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Servantes Saavedra, Miguėlʹ, 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Servantes Saavedra, Miguėlʹ,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Hsi-wan-ti-shih, 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Hsi-wan-ti-shih,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Serṿantes Saṿaidrah, Miguʼel de, 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Serṿantes Saṿaidrah, Miguʼel de,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Cervantes, Michael a, 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Cervantes, Michael a,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Cervantes Saavedra, Michael a, 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Cervantes Saavedra, Michael a,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Servantes Savedra, Migelʹ, 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Servantes Savedra, Migelʹ,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Savedra, Migelʹ Servantes, 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Savedra, Migelʹ Servantes,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">סערוואנטעס דע סאאוועדרא, מיגעל דע</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">סערוואנטעס דע סאאוועדרא, מיגעל דע</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">סערװאנטעס סאאװעדרא, מיגעל דע</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">סערװאנטעס סאאװעדרא, מיגעל דע</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">סרונטס סאאוידרא, מיגואל די, 1547־1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">סרונטס סאאוידרא, מיגואל די,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547־1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">סרונטס סודרה, מיגל דה, 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">סרונטס סודרה, מיגל דה,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">סרונטס, מיגאל</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">סרונטס, מיגאל</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">סרונתס סאוידרה, מיגואל די</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">סרונתס סאוידרה, מיגואל די</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">צערװאנטעס, מיגועל, 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">צערװאנטעס, מיגועל,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">ثربانتس سابدرا، ميجيل دي، 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">ثربانتس سابدرا، ميجيل دي،</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">سروانتس</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">سروانتس</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">セルバンテス, 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">セルバンテス,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">塞万提斯, 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">塞万提斯,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Tservantes, Michaēl, 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Tservantes, Michaēl,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Cervantes Saavedra, Michiel de, 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Cervantes Saavedra, Michiel de,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:hasVariant>
+      <madsrdf:PersonalName>
+	<rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#Variant"/>
+	<madsrdf:variantLabel xml:lang="en">Cerbantes Saavedra, Miguel de, 1547-1616</madsrdf:variantLabel>
+	<madsrdf:elementList rdf:parseType="Collection">
+	  <madsrdf:FullNameElement>
+	    <madsrdf:elementValue xml:lang="en">Cerbantes Saavedra, Miguel de,</madsrdf:elementValue>
+	  </madsrdf:FullNameElement>
+	  <madsrdf:DateNameElement>
+	    <madsrdf:elementValue xml:lang="en">1547-1616</madsrdf:elementValue>
+	  </madsrdf:DateNameElement>
+	</madsrdf:elementList>
+      </madsrdf:PersonalName>
+    </madsrdf:hasVariant>
+    <madsrdf:editorialNote>[Machine-derived non-Latin script reference project.]</madsrdf:editorialNote>
+    <madsrdf:editorialNote>[Non-Latin script references not evaluated.]</madsrdf:editorialNote>
+    <identifiers:lccn xmlns:identifiers="http://id.loc.gov/vocabulary/identifiers/">n 79100233</identifiers:lccn>
+    <identifiers:local xmlns:identifiers="http://id.loc.gov/vocabulary/identifiers/">(OCoLC)oca00332349</identifiers:local>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>Les nouvelles exemplaires, 1942.</madsrdf:citation-source>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>Miguel Cervantes Savedra Don Quijote ... 1982:</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">(Miguel Cervantes Savedra)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>Don Kikhot, 1982:</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">t.p. (M. Servantesu; M. Cervantes)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>Don Kikhot Lamanchskīĭ, 1895:</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">v. 1, t.p. (Miguėli͡a Servantesa Saavedry)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>nuc90-15822: Cervantes Saavedra, M. Tang Chi-kʻo-te chʻuan, 1982</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">(hdg. on C rept.: Cervantes Saavedra, Miguel de, 1547-1616; usage: Hsi-wan-ti-shih)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>Ḥayim ṿeha-mifʻalim shel ha-atsil he-ḥarif Don Ḳishoṭ min Lah Manshah, 1894?:</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">t.p. (Miguʼel de Serṿantes Saṿaidrah)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>Dominus Quixotus a Manica, 1998:</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">cover (Michael a Cervantes) added t.p., liber 1 (Michael a Cervantes Saavedra)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>Don Kikhot Lamanchskīĭ, 1838-</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">v. 1, t.p. (Migeli͡a Servantesa Savedry)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>Michaēl Tservantes, Ho epitēdeios eugenēs don Kisotēs tēs Mantsas, 2007.</madsrdf:citation-source>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>Vermaakelyke minneryen, 1733:</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">t.p. (Michiel de Cervantes)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>Sojliu mendjemprehtë Don Kishoti i Mançës, 1977:</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">t.p. (Migel de Servantes Saavedra)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>El ingenioso hidalgo Don Quijote de la Mancha, 2015:</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">t.p. (Miguel de Cerbantes Saavedra)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:hasSource>
+      <madsrdf:Source>
+	<madsrdf:citation-source>Don Kikhot, 1953-1954:</madsrdf:citation-source>
+	<madsrdf:citation-note xml:lang="en">title page (Migelʹ de Servantes Saavedra)</madsrdf:citation-note>
+	<madsrdf:citation-status>found</madsrdf:citation-status>
+      </madsrdf:Source>
+    </madsrdf:hasSource>
+    <madsrdf:adminMetadata>
+      <ri:RecordInfo xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#">
+	<ri:recordChangeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1979-09-19T00:00:00</ri:recordChangeDate>
+	<ri:recordStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</ri:recordStatus>
+	<ri:recordContentSource rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<ri:languageOfCataloging rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      </ri:RecordInfo>
+    </madsrdf:adminMetadata>
+    <madsrdf:adminMetadata>
+      <ri:RecordInfo xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#">
+	<ri:recordChangeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-03-01T07:38:07</ri:recordChangeDate>
+	<ri:recordStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</ri:recordStatus>
+	<ri:recordContentSource rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<ri:languageOfCataloging rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+      </ri:RecordInfo>
+    </madsrdf:adminMetadata>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Cervantes Saavedra, Miguel de, 1547-1616</skos:prefLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Sai-wan-tʻi-ssŭ, 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Servantes, M., 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Sirfāntīs, 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">De Cervantes Saavedra, Miguel, 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Cervantes, Miguel de, 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Cervantes de Saavedra, Miguel de, 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Сервантес Сааведра, Мигель де, 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Servantes Saavedra, Migelʹ de, 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Saavedra, Miguel de Cervantes, 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Cervantes Savedra, Miguel, 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Savedra, Miguel Cervantes, 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Servantesu, M., 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Cervantes, M., 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Servantes Saavedra, Miguėlʹ, 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Hsi-wan-ti-shih, 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Serṿantes Saṿaidrah, Miguʼel de, 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Cervantes, Michael a, 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Cervantes Saavedra, Michael a, 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Servantes Savedra, Migelʹ, 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Savedra, Migelʹ Servantes, 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">סערוואנטעס דע סאאוועדרא, מיגעל דע</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">סערװאנטעס סאאװעדרא, מיגעל דע</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">סרונטס סאאוידרא, מיגואל די, 1547־1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">סרונטס סודרה, מיגל דה, 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">סרונטס, מיגאל</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">סרונתס סאוידרה, מיגואל די</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">צערװאנטעס, מיגועל, 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">ثربانتس سابدرا، ميجيل دي، 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">سروانتس</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">セルバンテス, 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">塞万提斯, 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Tservantes, Michaēl, 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Cervantes Saavedra, Michiel de, 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skosxl:altLabel xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+      <rdf:Description>
+	<rdf:type rdf:resource="http://www.w3.org/2008/05/skos-xl#Label"/>
+	<skosxl:literalForm xml:lang="en">Cerbantes Saavedra, Miguel de, 1547-1616</skosxl:literalForm>
+      </rdf:Description>
+    </skosxl:altLabel>
+    <skos:exactMatch rdf:resource="http://viaf.org/viaf/sourceID/LC%7Cn+79100233#skos:Concept" xmlns:skos="http://www.w3.org/2004/02/skos/core#"/>
+    <skos:editorial xmlns:skos="http://www.w3.org/2004/02/skos/core#">[Machine-derived non-Latin script reference project.]</skos:editorial>
+    <skos:editorial xmlns:skos="http://www.w3.org/2004/02/skos/core#">[Non-Latin script references not evaluated.]</skos:editorial>
+    <skos:inScheme rdf:resource="http://id.loc.gov/authorities/names" xmlns:skos="http://www.w3.org/2004/02/skos/core#"/>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Sai-wan-tʻi-ssŭ, 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Servantes, M., 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Sirfāntīs, 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">De Cervantes Saavedra, Miguel, 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Cervantes, Miguel de, 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Cervantes de Saavedra, Miguel de, 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Сервантес Сааведра, Мигель де, 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Servantes Saavedra, Migelʹ de, 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Saavedra, Miguel de Cervantes, 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Cervantes Savedra, Miguel, 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Savedra, Miguel Cervantes, 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Servantesu, M., 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Cervantes, M., 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Servantes Saavedra, Miguėlʹ, 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Hsi-wan-ti-shih, 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Serṿantes Saṿaidrah, Miguʼel de, 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Cervantes, Michael a, 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Cervantes Saavedra, Michael a, 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Servantes Savedra, Migelʹ, 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Savedra, Migelʹ Servantes, 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">סערוואנטעס דע סאאוועדרא, מיגעל דע</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">סערװאנטעס סאאװעדרא, מיגעל דע</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">סרונטס סאאוידרא, מיגואל די, 1547־1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">סרונטס סודרה, מיגל דה, 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">סרונטס, מיגאל</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">סרונתס סאוידרה, מיגואל די</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">צערװאנטעס, מיגועל, 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">ثربانتس سابدرا، ميجيل دي، 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">سروانتس</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">セルバンテス, 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">塞万提斯, 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Tservantes, Michaēl, 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Cervantes Saavedra, Michiel de, 1547-1616</skos:altLabel>
+    <skos:altLabel xml:lang="en" xmlns:skos="http://www.w3.org/2004/02/skos/core#">Cerbantes Saavedra, Miguel de, 1547-1616</skos:altLabel>
+    <skos:changeNote xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+      <cs:ChangeSet xmlns:cs="http://purl.org/vocab/changeset/schema#">
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/names/n79100233"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1979-09-19T00:00:00</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">new</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+    <skos:changeNote xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+      <cs:ChangeSet xmlns:cs="http://purl.org/vocab/changeset/schema#">
+	<cs:subjectOfChange rdf:resource="http://id.loc.gov/authorities/names/n79100233"/>
+	<cs:creatorName rdf:resource="http://id.loc.gov/vocabulary/organizations/dlc"/>
+	<cs:createdDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-03-01T07:38:07</cs:createdDate>
+	<cs:changeReason rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revised</cs:changeReason>
+      </cs:ChangeSet>
+    </skos:changeNote>
+  </madsrdf:PersonalName>
+</rdf:RDF>
