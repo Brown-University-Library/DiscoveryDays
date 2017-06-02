@@ -1,5 +1,4 @@
 # Linked Data Authorities
-
 Instructions on how to get started for the *Linked Data Authorities* hackathon at Brown University as part of Discovery Days (June/2017)
 
     Channel B: Linked Data Authorities (data provided) — leveraging authorities
@@ -10,79 +9,13 @@ We'll have a public Fuseki endpoint available during the hackathon so you don't 
 
 The URL for the public endpoint is http://to-be-determined:3030/dataset.html?tab=query&ds=/testdb
 
-If you have access to this endpoint you can skip directly to the "Queries" section. Otherwise follow these steps to install Fuseki on your computer.
+If you have access to this endpoint you can go directly to the *Sample Queries* section. If not, take a look the *Download and Install Fuseki* section below.
 
 
-## Clone this repository
-To clone this repo from the Terminal
+## Sample Queries
+[This spreadsheet](https://docs.google.com/spreadsheets/d/1LOkagwolY_bzn1shNTTQ7HbK87nhxAyl5wb36sJU6eU/edit?usp=sharing) has a list of the names included in the sample data.
 
-```
-git clone https://github.com/Brown-University-Library/DiscoveryDays.git
-cd DiscoveryDays/authorities_hub/
-```
-
-
-## Download and install Fuseki
-Pre-requisites. Fuseki requires Java to be installed on your machine. To verify that you have
-Java installed on your box issue the following command from the Terminal
-
-```
-java -version
-```
-
-You should see something along the lines of `java version 1.8.0_91`. If not, you'll need to install Java (TODO: Add instructions to install Java -- sad face)
-
-Complete instructions to install Fuseki: https://jena.apache.org/documentation/serving_data/#download-fuseki1
-
-Short instructions for Mac/Linux (if you are comfortable with the Terminal)
-```
-# Download Fuseki
-curl http://apache.mirrors.lucidnetworks.net/jena/binaries/apache-jena-fuseki-2.6.0.tar.gz > apache-jena-fuseki-2.6.0.tar.gz
-tar xvzf apache-jena-fuseki-2.6.0.tar.gz
-cd apache-jena-fuseki-2.6.0
-```
-
-Start the server and name our database "testdb"
-```
-# On Mac/Linux
-mkdir testdb
-./fuseki-server --update --loc=testdb /testdb
-
-# On Windows
-mkdir testdb
-fuseki-server --update --loc=testdb /testdb
-
-# On Windows (plan B)
-mkdir testdb
-java -jar fuseki-server.jar
-```
-
-If Fuseki started you should see something along the lines of:
-
-    [2017-06-01 09:53:41] Server     INFO  Running in read-only mode for /testdb
-    [2017-06-01 09:53:41] Server     INFO  Fuseki 2.6.0
-    ...
-
-Leave this Terminal window running, browse to http://localhost:3030 and click on the "query" button next to the "/testdb"
-
-Ta-da! You are ready to start submitting SPARQL queries...but we need to add some data first.
-
-
-## Adding sample data
-Open a new Terminal window, navigate to the folder where you cloned this Git repository and run the following command to add some demo data to you Fuseki installation:
-```
-curl -v -X PUT -d @demo_triples.ttl -H "Content-Type: text/turtle" http://localhost:3030/testdb?default
-```
-
-Fuseki provides a Ruby script `s-put` to upload data, but this only works if you have Ruby installed on you machine:
-```
-bin/s-put http://localhost:3030/testdb default demo_triples.ttl
-```
-
-
-## Queries
-
-Go to http://TBD:3030/dataset.html?tab=query&ds=/testdb and use the following SPARQL queries to navigate through the information:
+To run the queries go to http://to-be-determined:3030/dataset.html?tab=query&ds=/testdb and use the following SPARQL queries to navigate through the information:
 
 All people in our data set
 ```
@@ -138,10 +71,72 @@ WHERE {
 }
 ```
 
+## Download and install Fuseki
+Pre-requisites. Fuseki requires Java to be installed on your machine. To verify that you have
+Java installed on your box issue the following command from the Terminal
+
+```
+java -version
+```
+
+You should see something along the lines of `java version 1.8.0_91`. If not, you'll need to install Java (TODO: Add instructions to install Java -- sad face)
+
+Complete instructions to install Fuseki: https://jena.apache.org/documentation/serving_data/#download-fuseki1
+
+Short instructions for Mac/Linux (if you are comfortable with the Terminal)
+```
+# Download Fuseki
+curl http://apache.mirrors.lucidnetworks.net/jena/binaries/apache-jena-fuseki-2.6.0.tar.gz > apache-jena-fuseki-2.6.0.tar.gz
+tar xvzf apache-jena-fuseki-2.6.0.tar.gz
+cd apache-jena-fuseki-2.6.0
+```
+
+Start the server and name our database "testdb"
+```
+# On Mac/Linux
+mkdir testdb
+./fuseki-server --update --loc=testdb /testdb
+
+# On Windows
+mkdir testdb
+fuseki-server --update --loc=testdb /testdb
+
+# On Windows (plan B)
+mkdir testdb
+java -jar fuseki-server.jar
+```
+
+If Fuseki started you should see something along the lines of:
+
+    [2017-06-01 09:53:41] Server     INFO  Running in read-only mode for /testdb
+    [2017-06-01 09:53:41] Server     INFO  Fuseki 2.6.0
+    ...
+
+Leave this Terminal window running, browse to http://localhost:3030 and click on the "query" button next to the "/testdb"
+
+Ta-da! You are ready to start submitting SPARQL queries...but we need to add some data first.
+
+
+## Adding sample data
+Open a new Terminal window and clone this repository (make sure to leave the window with Fuseki running open)
+```
+git clone https://github.com/Brown-University-Library/DiscoveryDays.git
+cd DiscoveryDays/authorities_hub/
+```
+
+and then run the following command to add some demo data to yourFuseki installation:
+```
+curl -v -X PUT -d @demo_triples.ttl -H "Content-Type: text/turtle" http://localhost:3030/testdb?default
+```
+
+Fuseki provides a Ruby script `s-put` to upload data, but this only works if you have Ruby installed on you machine:
+```
+bin/s-put http://localhost:3030/testdb default demo_triples.ttl
+```
+
 
 ## Other scripts
-
-The scripts below are meant to be run from the Terminal on your local Fusek instance.
+The scripts below are meant to be run from the Terminal on your local Fuseki instance.
 
 Select all triples:
 ```
