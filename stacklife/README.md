@@ -53,6 +53,6 @@ StackLife and StackView provide a great frontend foundation for the *display* of
 
 The implementation of this backend is not too complicated but it requires that the call numbers in the backend are normalized so that they can be sorted. There are many programs to normalize call numbers, you can see the code that we used to normalize our call numbers in [this Python program](https://github.com/Brown-University-Library/bul-search/blob/master/misc/callnumber_norm/callnumbers.py).
 
-We store our normalized callnumbers in a SQL table, you view the definition of the `callnumber` table [here](https://github.com/Brown-University-Library/bul-search/blob/master/db/schema.rb). We use plain good-old SQL queries to fetch items that are near a given callnumber, you can see these queries [here](https://github.com/Brown-University-Library/bul-search/blob/master/app/models/callnumber.rb)
+We store our normalized callnumbers in a SQL table, you can view the definition of the `callnumber` table [here](https://github.com/Brown-University-Library/bul-search/blob/master/db/schema.rb). We use plain good-old SQL queries to fetch items that are near a given callnumber, you can see these queries [here](https://github.com/Brown-University-Library/bul-search/blob/master/app/models/callnumber.rb)
 
 We use an controller to allow the StackView plug-in to fetch the data from our tables. You can see the code for this controller [here](https://github.com/Brown-University-Library/bul-search/blob/master/app/controllers/api_controller.rb).
