@@ -152,6 +152,13 @@ WHERE {
 ```
 
 
+## Quick and dirty demos
+
+File **demo.rb** is an example of a Ruby program that connects to Fuseki and dumps the results to the console.
+
+File **demo.html** is an example of a web page that connects to Fuseki via JavaScript and dumps the result to the page.
+
+
 ## Where to find more information
 
 **Christina Harlow's Code4Lib 2015 talk "Get Your Recon"**
