@@ -126,12 +126,12 @@ cd DiscoveryDays/authorities_hub/
 
 and then run the following command to add some demo data to yourFuseki installation:
 ```
-curl -v -X PUT -d @demo_triples.ttl -H "Content-Type: text/turtle" http://localhost:3030/testdb?default
+curl -v -X PUT -d @./data/demo_triples.ttl -H "Content-Type: text/turtle" http://localhost:3030/testdb?default
 ```
 
 Fuseki provides a Ruby script `s-put` to upload data, but this only works if you have Ruby installed on you machine:
 ```
-bin/s-put http://localhost:3030/testdb default demo_triples.ttl
+bin/s-put http://localhost:3030/testdb default ./data/demo_triples.ttl
 ```
 
 
@@ -157,12 +157,12 @@ curl -X POST -d @delete_all.sparql http://localhost:3030/testdb/update
 
 Add a single triple to Fuseki (used for troubleshooting)
 ```
-curl -v -X PUT -d @simple.nt -H "Content-Type: text/turtle" http://localhost:3030/testdb?default
+curl -v -X PUT -d @./data/simple.nt -H "Content-Type: text/turtle" http://localhost:3030/testdb?default
 ```
 
 Add sample data to Fuseki:
 ```
-curl -v -X PUT -d @demo_triples.ttl -H "Content-Type: text/turtle" http://localhost:3030/testdb?default
+curl -v -X PUT -d @./data/demo_triples.ttl -H "Content-Type: text/turtle" http://localhost:3030/testdb?default
 ```
 
 
@@ -170,7 +170,7 @@ curl -v -X PUT -d @demo_triples.ttl -H "Content-Type: text/turtle" http://localh
 To export all the data in your Fuseki installation to a Turtle file. You can use this file to import the data in a different Fuseki instance:
 
 ```
-curl -H "Accept: text/turtle" -X POST -d @select_all_graph.sparql http://localhost:3030/testdb/sparql > all_triples.ttl
+curl -H "Accept: text/turtle" -X POST -d @select_all_graph.sparql http://localhost:3030/testdb/sparql > ./data/all_triples.ttl
 ```
 
 
