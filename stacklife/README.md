@@ -23,7 +23,7 @@ A few sites using something similar to allow browsing
 
 
 ## Play with the code locally
-For the hackathon we'll use a fork of StackView that has a quick and easy way to play with StackView with live data coming from the Brown University Library web site.
+For the hackathon we'll use [a fork of StackView](https://github.com/hectorcorrea/stackview) that has a quick and easy way to play with StackView with live data coming from the Brown University Library web site.
 
 The demo with the live data requires that you have Node.js installed on your machine. To verify that you do run the following command from the Terminal:
 
@@ -31,17 +31,17 @@ The demo with the live data requires that you have Node.js installed on your mac
 node --version
 ```
 
-You should see something along the lines of `v6.2.2`. If you see `command not found` it means Node.js is not installed on your machine and you'll need to get it from https://nodejs.org/.
+You should see something along the lines of `v6.2.2`, the version number is not very important, the code should work with older/newer versions on Node. However, if you see `command not found` it means Node.js is not installed on your machine and you'll need to get it from https://nodejs.org/.
 
 Once you've verified that Node.js is installed on your machine, follow these steps to get the sample code running:
 
 ```
 cd
 git clone https://github.com/hectorcorrea/stackview.git
-cd stackview 
+cd stackview
 node server.js
 ```
 
 Then browse to http://localhost:8000/demo/basic.html this will show you StackView running with two hardcoded items. You can see the data for the hard-code items in file demo/basic.html.
 
-Then browse to http://localhost:8000/demo/brown.html, this will show you StackView running and fetching data from the Brown University Library API. Ideally you should implement a similar API at your institution to get the same behavior.
+Then browse to http://localhost:8000/demo/brown.html, this will show you StackView running and fetching data from the Brown University Library API. Ideally you should implement a similar API at your institution to get the same behavior. You can see the call to fetch the data in file demo/brown.html.
