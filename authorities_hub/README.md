@@ -17,38 +17,118 @@ If you have access to this endpoint you can just execute the *Sample Queries* in
 
 To run the queries go to http://to-be-determined:3030/dataset.html?tab=query&ds=/testdb and use the following SPARQL queries to navigate through the information:
 
-All people in our data set
+
+All people in our data set (partial)
 ```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 SELECT ?s
 WHERE {
   ?s rdf:type <http://schema.org/Person> .
 }
+# Result should include about 10 IDs
 ```
 
-Everything we know about Adam Smith from VIAF
+
+All people in our dataset. Notice that we account for different predicates to indicate a person (LOC uses PersonalName while dbPedia and VIAF use Person)
 ```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?s
+WHERE {
+  { ?s rdf:type <http://www.loc.gov/mads/rdf/v1#PersonalName> . }
+  UNION
+  { ?s rdf:type <http://schema.org/Person> . }
+  FILTER (!isBlank(?s))
+}
+# Result should include about 18 IDs
+```
+
+
+Everything we know about for Adam Smith (VIAF URI http://viaf.org/viaf/49231791)
+in our dataset
+```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 SELECT ?p ?o
 WHERE {
   <http://viaf.org/viaf/49231791> ?p ?o .
+  FILTER (!isBlank(?o))
 }
 ```
 
-Data for other resources marked as SameAs Adam Smith
+
+What other resources in our dataset represent the same Adam Smith
 ```
-SELECT ?sa ?p ?o
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT distinct ?sa  
 WHERE {
   <http://viaf.org/viaf/49231791> <http://schema.org/sameAs> ?sa .
-  ?sa ?p ?o .
+  # this second pattern it used to filter to only resources in our dataset
+  ?sa rdf:type ?t .
+}
+
+# Result should be something like
+# <http://dbpedia.org/resource/Adam_Smith>
+# <http://id.loc.gov/authorities/names/n80032761> .
+```
+
+
+Everything we know about Adam Smith in our dataset from all sources (i.e. including the data from the sameAs resources)
+```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?s ?p ?o  
+WHERE {
+  {
+    # Data from VIAF
+    BIND( <http://viaf.org/viaf/49231791> as ?s )
+    ?s ?p ?o .
+  }
+  UNION {
+    # Data from other sources that VIAF says is the sameAs
+    <http://viaf.org/viaf/49231791> <http://schema.org/sameAs> ?s .
+    ?s ?p ?o .
+  }
 }
 ```
 
-Other resources that are SameAs our VIAF Adam Smith
+
+## More queries
+
+Find all the predicates in our dataset
 ```
-SELECT DISTINCT ?sa
+SELECT distinct ?p
 WHERE {
-  <http://viaf.org/viaf/49231791> <http://schema.org/sameAs> ?sa .
-  ?sa a ?o
+  ?s ?p ?o .
+}
+```
+
+
+All predicates that might represent people entities
+```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT distinct ?o
+WHERE {
+  ?s rdf:type ?o .
+  FILTER regex(str(?o), "Person") .
+}
+
+# Returns something like
+# http://www.loc.gov/mads/rdf/v1#PersonalName
+# http://id.loc.gov/ontologies/bibframe/Person
+# http://xmlns.com/foaf/0.1/Person
+# http://schema.org/Person
+# http://dbpedia.org/class/yago/Person100007846
+# http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson
+# http://dbpedia.org/ontology/Person
+```
+
+
+All people in our dataset from the Library of Congress
+```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?s ?p ?o  
+WHERE {
+  ?s rdf:type <http://www.loc.gov/mads/rdf/v1#PersonalName> .
+  FILTER (!isBlank(?s))
 }
 ```
 
