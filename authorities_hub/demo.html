@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Query Fuseki</title>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<p>Query Fuseki Demo </p>
+<ul id="results">
+</ul>
+
+
+<script type="text/javascript">
+  $(function () {
+    fuseki_url = "http://localhost:3030/testdb/sparql?"
+    query = "query=SELECT+?subject+?predicate+?object+WHERE+\{++?subject+?predicate+?object+\}"
+
+    $.ajax({
+      type: "GET",
+      url: fuseki_url + query,
+      success: function (data) {
+        var i, triple, subject, predicate, object, html;
+        for(i = 0; i < data.results.bindings.length; i++) {
+          triple = data.results.bindings[i];
+          subject = triple.subject.value;
+          predicate = triple.predicate.value;
+          object = triple.object.value;
+          html = "<b>s:</b> " + subject + ", <b>p:</b> " + predicate + ", <b>o:</b>" + object + "<br/>";
+          $("#results").append(html);
+        }
+      }
+    });
+
+  });
+</script>
+
+</body>
+</html>
