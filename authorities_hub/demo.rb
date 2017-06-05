@@ -109,12 +109,23 @@ end
 # Run a sample query
 fuseki_url = "http://localhost:3030/testdb/sparql"
 query = <<-END_SPARQL
-SELECT ?subject ?predicate ?object
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?s ?name ?abstract ?birth ?dead
 WHERE {
-  ?subject ?predicate ?object .
+  BIND( <http://dbpedia.org/resource/Adam_Smith> as ?s ) .
+  ?s rdfs:label ?name .
+  ?s <http://dbpedia.org/ontology/abstract> ?abstract .
+  ?s <http://dbpedia.org/ontology/birthDate> ?birth .
+  ?s <http://dbpedia.org/ontology/deathDate> ?dead .
+  FILTER langMatches( lang(?name), "en" ) .
+  FILTER langMatches( lang(?abstract), "en" ) .
 }
-LIMIT 25
 END_SPARQL
+
+# 
+# puts CGI.escape(query)
+# abort
 
 sparql = Sparql::Query.new(fuseki_url, query)
 sparql.results.each do |row|
