@@ -108,7 +108,7 @@ WHERE {
 ```
 
 
-Fetch the abstract (for any source) for a given person
+Fetch the abstract (from any source) for a given person
 ```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 SELECT ?s ?name ?abstract

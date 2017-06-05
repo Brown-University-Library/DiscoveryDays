@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <title>Query Fuseki</title>
+  <title>Amazing Prototype</title>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 </head>
 
@@ -35,7 +35,7 @@
     }
     */
 
-    // SPARQL query bur URL encoded
+    // SPARQL query (URL encoded)
     query = "query=PREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0ASELECT+%3Fs+%3Fname+%3Fabstract+%3Fbirth+%3Fdead%0AWHERE+%7B%0A++BIND%28+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FAdam_Smith%3E+as+%3Fs+%29+.%0A++%3Fs+rdfs%3Alabel+%3Fname+.%0A++%3Fs+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2Fabstract%3E+%3Fabstract+.%0A++%3Fs+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FbirthDate%3E+%3Fbirth+.%0A++%3Fs+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FdeathDate%3E+%3Fdead+.%0A++FILTER+langMatches%28+lang%28%3Fname%29%2C+%22en%22+%29+.%0A++FILTER+langMatches%28+lang%28%3Fabstract%29%2C+%22en%22+%29+.%0A%7D%0A";
 
     $.ajax({
