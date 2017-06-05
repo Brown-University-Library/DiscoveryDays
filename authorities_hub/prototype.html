@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Query Fuseki</title>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+</head>
+
+<body>
+<h1>Adam Smith</h1>
+<p>(data from dbPedia in our dataset)</p>
+<p id="uri"></p>
+<p id="name"></p>
+<p id="birth"></p>
+<p id="dead"></p>
+<p id="abstract"></p>
+
+<script type="text/javascript">
+  $(function () {
+    fuseki_url = "http://localhost:3030/testdb/sparql?";
+
+    /* Original SPARQL Query
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    SELECT ?s ?name ?abstract ?birth ?dead
+    WHERE {
+      BIND( <http://dbpedia.org/resource/Adam_Smith> as ?s ) .
+      ?s rdfs:label ?name .
+      ?s <http://dbpedia.org/ontology/abstract> ?abstract .
+      ?s <http://dbpedia.org/ontology/birthDate> ?birth .
+      ?s <http://dbpedia.org/ontology/deathDate> ?dead .
+      FILTER langMatches( lang(?name), "en" ) .
+      FILTER langMatches( lang(?abstract), "en" ) .
+    }
+    */
+
+    // SPARQL query bur URL encoded
+    query = "query=PREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0ASELECT+%3Fs+%3Fname+%3Fabstract+%3Fbirth+%3Fdead%0AWHERE+%7B%0A++BIND%28+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2FAdam_Smith%3E+as+%3Fs+%29+.%0A++%3Fs+rdfs%3Alabel+%3Fname+.%0A++%3Fs+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2Fabstract%3E+%3Fabstract+.%0A++%3Fs+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FbirthDate%3E+%3Fbirth+.%0A++%3Fs+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2FdeathDate%3E+%3Fdead+.%0A++FILTER+langMatches%28+lang%28%3Fname%29%2C+%22en%22+%29+.%0A++FILTER+langMatches%28+lang%28%3Fabstract%29%2C+%22en%22+%29+.%0A%7D%0A";
+
+    $.ajax({
+      type: "GET",
+      url: fuseki_url + query,
+      success: function (data) {
+        row = data.results.bindings[0];
+        $("#name").append(row.name.value);
+        $("#birth").append(row.birth.value);
+        $("#dead").append(row.dead.value);
+        $("#abstract").append(row.abstract.value);
+      }
+    });
+
+  });
+</script>
+
+</body>
+</html>
