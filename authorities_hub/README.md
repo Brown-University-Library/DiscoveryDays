@@ -90,6 +90,68 @@ WHERE {
 ```
 
 
+## Hackathon Queries
+
+Only a few bits of data for a given person
+```
+PPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?s ?name ?abstract ?birth ?dead
+WHERE {
+  BIND( <http://dbpedia.org/resource/Adam_Smith> as ?s )
+  ?s rdfs:label ?name .
+  ?s <http://dbpedia.org/ontology/abstract> ?abstract .
+  ?s <http://dbpedia.org/ontology/birthDate> ?birth .
+  ?s <http://dbpedia.org/ontology/deathDate> ?dead .
+  FILTER langMatches( lang(?name), "en" )
+  FILTER langMatches( lang(?abstract), "en" )
+}
+```
+
+
+Fetch the abstract (for any source) for a given person
+```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?s ?name ?abstract
+WHERE {
+  {
+    # Data from VIAF
+    BIND( <http://viaf.org/viaf/49231791> as ?s )
+    ?s <http://schema.org/name> ?name .
+    FILTER langMatches( lang(?name), "es" ) .
+  }
+  UNION {
+    # Data from other sources that VIAF says is the sameAs
+    <http://viaf.org/viaf/49231791> <http://schema.org/sameAs> ?s .
+    ?s <http://dbpedia.org/ontology/abstract> ?abstract .
+    FILTER langMatches( lang(?abstract), "es" ) .
+  }
+}
+```
+
+
+What other resources are the same as a given person in our dataset
+```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT ?s ?s2
+WHERE {
+  ?s <http://schema.org/sameAs> <http://id.loc.gov/authorities/names/n80032761> .
+  ?s <http://schema.org/sameAs> ?s2 .
+  ?s2 rdf:type ?t .
+}
+```
+
+
+Subject areas for a given person
+```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?rwo ?activity ?act_name
+WHERE {
+  <http://id.loc.gov/authorities/names/n80032761> <http://www.loc.gov/mads/rdf/v1#identifiesRWO> ?rwo.
+  ?rwo <http://www.loc.gov/mads/rdf/v1#fieldOfActivity> ?activity .
+  ?activity <http://www.loc.gov/mads/rdf/v1#authoritativeLabel> ?act_name .
+}
+```
+
 ## More queries
 
 Find all the predicates in our dataset
